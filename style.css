@@ -1,0 +1,605 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#fotohome {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+#apoiatexto {
+    width: 25%;
+    height: 60px;
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 30%);
+    border-radius: 14px;
+    top: 30px;
+    left: 470px;
+}
+
+#apoiatexto2 {
+    background-color: rgba(0, 0, 0, 30%);
+    position: relative;
+    width: 20%;
+    top: 30px;
+    left: calc(470px + 2.5%);
+    border-radius: 0 0 14px 14px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600&display=swap');
+@import url('https://fonts.cdnfonts.com/css/gill-sans-mt-2');
+
+#apoiatexto h1 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Gill Sans MT', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: 5px;
+}
+
+#apoiatexto2 h2 {
+    color: white;
+    font-size: 25px;
+    font-family: 'Gill Sans MT', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: -10px;
+    z-index: 2;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 50px;
+    left: 810px;
+    width: 270px;
+}
+
+nav p {
+    color: white;
+    font-family: 'Gill Sans MT', sans-serif;
+    position: relative;
+}
+
+#redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100px;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+}
+
+#caixaprincipal {
+    width: 60%;
+    background-color: white;
+    z-index: 1;
+    height: 40vw;
+    position: relative;
+    border-radius: 60px;
+    top: 500px;
+    left: 20%;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+#caixaprincipal img {
+    height: 100%;
+}
+
+#ladoconteudo {
+    position: absolute;
+    right: -0px;
+    background-color: white;
+    top: 0;
+    width: 45%;
+    height: 100%;
+    border-radius: 0 60px 60px 0px;
+}
+
+#ladoconteudo h2 {
+    position: relative;
+    top: 60px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Gill Sans MT', sans-serif;
+    font-weight: 400;
+    font-size: 30px
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+#ladoconteudo > p {
+    position: relative;
+    top: 80px;
+    width: 100%;
+    left: 30px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+#explorador {
+    position: absolute;
+    bottom: 0;
+    background-color: #fff09e;
+    width: 100%;
+    border-radius: 0 0 60px 0;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#explorador a {
+    width: 25%;
+    box-shadow: 5px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 15px 5px;
+    height: 50px;
+}
+
+#explorador a:nth-child(4) {
+    border-radius: 0;
+}
+
+#explorador a div p {
+    position: relative;
+    text-align: center;
+    top: calc(50% - 9px);
+    font-family: 'Roboto', sans-serif;
+    top: 15px;
+}
+
+#explorador h3 {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+#histoverlay {
+    height: 150px;
+    width: 334px;
+    position: absolute;
+    top: 940px;
+    left: 657px;
+    z-index: 9;
+    background-color: #fff09e;
+    border-radius: 0 0 60px 0;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    opacity: 0;
+}
+
+#histoverlay h3 {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    width: 80%;
+}
+
+.botaoir {
+    position: relative;
+    background-color: #0d47a1;
+    border-radius: 30px;
+    height: 35px;
+    width: 70px;
+    top: 100px;
+    left: 129px;
+}
+
+.botaoir p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 9px;
+}
+
+#edoverlay {
+    height: 150px;
+    width: 334px;
+    position: absolute;
+    top: 940px;
+    left: 657px;
+    z-index: 9;
+    background-color: #fff09e;
+    border-radius: 0 0 60px 0;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    opacity: 0;
+}
+
+#edoverlay h3 {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    width: 80%;
+}
+
+#turismooverlay {
+    height: 150px;
+    width: 334px;
+    position: absolute;
+    top: 940px;
+    left: 657px;
+    z-index: 9;
+    background-color: #fff09e;
+    border-radius: 0 0 60px 0;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    opacity: 0;
+}
+
+#turismooverlay h3 {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    width: 80%;
+}
+
+#eventooverlay {
+    height: 150px;
+    width: 334px;
+    position: absolute;
+    top: 940px;
+    left: 657px;
+    z-index: 9;
+    background-color: #fff09e;
+    border-radius: 0 0 60px 0;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    opacity: 0;
+}
+
+#eventooverlay h3 {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    width: 80%;
+}
+
+a {
+    text-decoration: none;
+    width: fit-content;
+    height: fit-content;
+    color: currentColor;
+}
+
+#histoverlay:target {
+    opacity: 100%;
+}
+#edoverlay:target {
+    opacity: 100%;
+}
+#turismooverlay:target {
+    opacity: 100%;
+}
+#eventooverlay:target {
+    opacity: 100%;
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Gill Sans MT', sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: 650px;
+    font-size: 35px;
+}
+
+#curiosidades {
+    position: relative;
+    top: 700px;
+    width: 100%;
+}
+
+#curiosidades img {
+    width: 40%;
+    position: relative;
+    left: 50px;
+}
+#curiosidades div {
+    background-color: #fff09e;
+    height: 150px;
+    width: 450px;
+    position: absolute;
+    top: 75px;
+    left: 35%;
+}
+#curiosidades div p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    top: 25px;
+}
+
+iframe {
+    position: relative;
+    width: 60%;
+    top: 850px;
+    left: calc(50% - 30%);
+}
+
+#saibamais {
+    position: relative;
+    top: 900px;
+    background-color: #0d47a1;
+    width: 25%;
+    border-radius: 41px;
+    height: 40px;
+    left: calc(50% - 12.5%);
+}
+
+#saibamais p {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: 9px;
+}
+
+footer {
+    background-color: #0d47a1;
+    height: 200px;
+    border-radius: 60px 60px 0 0;
+    position: absolute;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#bugadohome {
+    background-color: #0d47a1;
+    height: 200px;
+    border-radius: 60px 60px 0 0;
+    position: absolute;
+    width: 100%;
+    top: 2500px;
+    margin-bottom: 0;
+}
+
+footer h2 {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    color: white;
+    left: 30px;
+    width: 20%;
+}
+
+footer img {
+    position: relative;
+    top: -72px;
+    height: 180px;
+    left: 300px;
+}
+
+footer p {
+    position: relative;
+    top: -200px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+footer p:nth-child(3) {
+    left: 400px;
+    width: 25%;
+}
+
+footer p:nth-child(4) {
+    top: -264px;
+    left: 850px;
+}
+
+header {
+    background-color: #fff09e;
+    height: 90px;
+    width: 100%;
+    padding-left: 00px;
+    justify-content: space-evenly;
+}
+
+header h2 {
+    position: absolute;
+    left: 50px;
+    font-size: 40px;
+    font-family: 'Gill Sans MT', sans-serif;
+    text-align: left;
+    top: 20px;
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 40%;
+    position: relative;
+    height: 100%;
+    left: 700px;
+}
+
+header div p {
+    height: 100%;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 30px;
+}
+
+#histtitulo {
+    position: absolute;
+    color: #FFFFFF;
+    top: 190px;
+    font-family: 'Gill Sans MT', sans-serif;
+}
+
+#hist1 {
+    width: 100%;
+    position: relative;
+    top: 100px;
+}
+
+#hist1 img:nth-child(1) {
+    width: 40%;
+    position: relative;
+    left: 40px;
+}
+
+#hist1 p {
+    width: 25%;
+    position: relative;
+    bottom: 280px;
+    left: 50%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#hist1 img:nth-child(3) {
+    position: relative;
+    bottom: 500px;
+    left: 1000px;
+}
+
+#hist2 {
+    width: 100%;
+    position: relative;
+    bottom: 300px;
+}
+
+#hist2 img {
+    position: relative;
+    left:890px;
+    height: 400px;
+}
+
+#hist2 p {
+    width: 25%;
+    position: relative;
+    bottom: -200px;
+    left: 40%;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+}
+
+#hist3 {
+    width: 100%;
+    position: relative;
+    bottom: 250px;
+}
+
+#hist3 img {
+    position: inherit;
+    left: 30px;
+}
+
+#hist3 div {
+    background-color: #fff09e;
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+    left: 1000px;
+    top: 100px;
+}
+
+#hist3 div p {
+    font-family: 'Gill Sans MT', sans-serif;
+    font-size: 30px;
+    position: inherit;
+    top: 5px;
+}
+
+#hist3 > p {
+    position: inherit;
+    top: 240px;
+    width: 35%;
+    left: 50%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#pracas {
+    width: 75%;
+    background-color: #0d47a1;
+    position: relative;
+    left: 0;
+    top: 50px;
+    height: 50px;
+    border-radius: 0 60px 60px 0;
+}
+
+#pracas p {
+    color: #FFFFFF;
+    position: relative;
+    font-family: 'Gill Sans MT', sans-serif;
+    font-size: 35px;
+    left: 40px;
+    top: 2px;
+    
+}
+
+.lugares {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.lugares img {
+    position: relative;
+    left: 30px;
+    height: 300px;
+}
+
+.lugares h2 {
+    position: relative;
+    top: -300px;
+}
+
+.lugares P {
+    position: relative;
+    top: -270px;
+    width: 50%;
+    left: 480px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#restaurantes {
+    width: 75%;
+    background-color: #0d47a1;
+    position: relative;
+    left: 0;
+    top: -50px;
+    height: 50px;
+    border-radius: 0 60px 60px 0;
+}
+
+#restaurantes p {
+    color: #FFFFFF;
+    position: relative;
+    font-family: 'Gill Sans MT', sans-serif;
+    font-size: 35px;
+    left: 40px;
+    top: 2px;
+}
+
+body {
+    overflow-x: hidden;
+}
